@@ -1,77 +1,51 @@
-PMLSeg
+---
+layout: default
+title: "PMLSeg"
+---
 
-Welcome to the official repository of PMLSeg, a deep learning-based image segmentation framework designed for precision and efficiency.
+# PMLSeg
 
-Overview
+**PMLSeg** est un package **R** dédié à la **segmentation de séries temporelles univariées** à l’aide de la **vraisemblance pénalisée** (*Penalized Maximum Likelihood*).  
+Il permet également de **valider les ruptures détectées** grâce à des métadonnées et de **visualiser les résultats** de manière intuitive.
 
-PMLSeg provides state-of-the-art segmentation models that are easy to train and deploy. It supports multiple architectures and datasets, enabling researchers and developers to achieve high-quality segmentation results in various applications.
+Ce site présente le projet, ses fonctionnalités principales, ainsi que des exemples d’utilisation.
 
-Features
+---
 
-Modular and extensible design
+## 🎯 Objectifs du package
 
-Support for popular segmentation architectures
+- Détecter des ruptures dans des séries temporelles univariées.  
+- Utiliser des critères de vraisemblance pénalisée pour sélectionner le nombre optimal de segments.  
+- Valider les ruptures détectées à l’aide de métadonnées externes.  
+- Proposer des outils de visualisation pour interpréter les résultats.
 
-Easy training and evaluation pipelines
+---
 
-Comprehensive documentation and examples
+## 📦 Fonctionnalités principales
 
-Installation
+- Segmentation automatique ou guidée.  
+- Choix du nombre de segments (K) selon plusieurs stratégies.  
+- Gestion de séries temporelles avec variabilité mensuelle.  
+- Validation croisée avec métadonnées.  
+- Visualisation des ruptures et des segments.
 
-Please refer to the Installation Guide for detailed instructions on setting up PMLSeg.
+---
 
-Usage
+## 📘 Documentation & exemples
 
-Check out the User Guide to learn how to train models, run inference, and customize the framework.
+Le dépôt contient plusieurs ressources utiles :
 
-Resources
+- **README du package** : présentation générale et exemples rapides.  
+- **Examples.md** : démonstrations d’utilisation du package.  
+- **Use_cases/** : cas d’usage complets, dont :
+  - *Use case #1 : séries journalières de différences IWV (GNSS – ERA5)*
 
-GitHub Repository
+---
 
-Documentation
+## 🚀 Installation
 
-Issues
+Dans R :
 
-Contact
-
-For questions or support, please open an issue on GitHub or contact khanhninhnguyen@example.com.
-
-layout: default title: "PMLSeg"
-
-PMLSeg
-
-Welcome to the official repository of PMLSeg, a deep learning-based image segmentation framework designed for precision and efficiency.
-
-Overview
-
-PMLSeg provides state-of-the-art segmentation models that are easy to train and deploy. It supports multiple architectures and datasets, enabling researchers and developers to achieve high-quality segmentation results in various applications.
-
-Features
-
-Modular and extensible design
-
-Support for popular segmentation architectures
-
-Easy training and evaluation pipelines
-
-Comprehensive documentation and examples
-
-Installation
-
-Please refer to the Installation Guide for detailed instructions on setting up PMLSeg.
-
-Usage
-
-Check out the User Guide to learn how to train models, run inference, and customize the framework.
-
-Resources
-
-GitHub Repository
-
-Documentation
-
-Issues
-
-Contact
-
-For questions or support, please open an issue on GitHub or contact khanhninhnguyen@example.com.
+```r
+# Installation depuis GitHub
+devtools::install_github("khanhninhnguyen/PMLSeg")
