@@ -42,6 +42,10 @@ u_B^2(\bar d)=\mathbf a^\mathsf{T}\mathbf C_B\mathbf a,
 u_c^2(\bar d)=u_A^2(\bar d)+u_B^2(\bar d),
 \]
 
+\[
+u_B^2(\bar{d}) = \mathbf{a}^\mathsf{T} \mathbf{C}_B \mathbf{a}, \qquad u_c^2(\bar{d}) = u_A^2(\bar{d}) + u_B^2(\bar{d})
+\]
+
 so fully correlated calibration contributions do not incorrectly decrease as (n^{-1/2}). A three-cornered-hat estimate is retained only as a diagnostic and its independence assumption is stated. Final numerical uncertainties require the per-launch GRUAN uncertainty fields, surface-pressure record, collocation metadata, and GNSS processing information.
 
 ## Specific comments
