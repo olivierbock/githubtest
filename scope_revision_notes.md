@@ -8,7 +8,7 @@ Sections 4 and 5 have been retained, apart from the requested polarization notat
 
 ## Notation changes
 
-- Elevation remains (E); the electric field is now $$(\oldsymbol{\mathcal E})$$.
+- Elevation remains (E); the electric field is now $$(\mathcal E)$$.
 - Transverse components are ($$\mathcal E_{\parallel}$$) and ($$\mathcal E_{\perp}$$), respectively parallel and perpendicular to the vertical propagation plane.
 - The Aparicio (H,V) labels remain material responses relative to the particle-symmetry axis and are explicitly distinguished from ($$\parallel,\perp$$).
 - RCP is replaced by RHCP, defined as right-hand circular polarization.
