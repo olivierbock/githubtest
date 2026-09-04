@@ -8,7 +8,7 @@ Sections 4 and 5 have been retained, apart from the requested polarization notat
 
 ## Notation changes
 
-- Elevation remains (E); the electric field is now (oldsymbol{\mathcal E}).
+- Elevation remains (E); the electric field is now $$(oldsymbol{\mathcal E})$$.
 - Transverse components are ($$\mathcal E_{\parallel}$$) and ($$\mathcal E_{\perp}$$), respectively parallel and perpendicular to the vertical propagation plane.
 - The Aparicio (H,V) labels remain material responses relative to the particle-symmetry axis and are explicitly distinguished from ($$\parallel,\perp$$).
 - RCP is replaced by RHCP, defined as right-hand circular polarization.
@@ -64,16 +64,16 @@ These are operator-sensitivity differences, not validation residuals, because ER
 Recommended displays:
 
 1. Per-site statistics and source/quality summary.
-2. Multi-panel 2021 time series for representative polar, midlatitude, maritime, and tropical sites. Plot the dominant (Z_{0,h})/ZTD separately from the small residual terms.
-3. All-site forest plot or matrix of median and q05--q95 for each (\Delta Z_k).
+2. Multi-panel 2021 time series for representative polar, midlatitude, maritime, and tropical sites. Plot the dominant ($$Z_{0,h}$$)/ZTD separately from the small residual terms.
+3. All-site forest plot or matrix of median and q05--q95 for each ($$\Delta Z_k$$).
 4. Full association-level tables and time series in the Supplement.
 
 ### 6.3 Discussion questions
 
 1. Does the partition close numerically at every site and epoch?
-2. How does the hierarchy of terms change with climate, IWV, and (T_m)?
+2. How does the hierarchy of terms change with climate, IWV, and ($$T_m$$)?
 3. Which terms dominate RS41+ERA5 versus ERA5-only differences?
-4. How intermittent are condensate effects, and how does (Z_{\mathrm{NL}}) scale with refractivity and humidity?
+4. How intermittent are condensate effects, and how does ($$Z_{\mathrm{NL}}$$) scale with refractivity and humidity?
 5. Are outliers linked to source fractions, gaps, upper-tail use, condensate, or surface-pressure differences?
 
 ## Numerical material requested for the next review
