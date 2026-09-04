@@ -17,8 +17,8 @@ The following profile-based comparisons are retained in the present paper:
    is known to be present for at least Lindenberg.
 
 Sections 4 and 5 remain substantively unchanged. The previously requested notation is retained:
-elevation is \(E\), the electric field is \(\boldsymbol{\mathcal E}\), its transverse components
-are \(\mathcal E_{\parallel}\) and \(\mathcal E_{\perp}\), and RHCP denotes right-hand circular
+elevation is $$\(E\)$$, the electric field is $$\(\boldsymbol{\mathcal E}\)$$, its transverse components
+are $$\(\mathcal E_{\parallel}\)$$ and $$\(\mathcal E_{\perp}\)$$, and RHCP denotes right-hand circular
 polarization.
 
 ## Association inventory
@@ -58,17 +58,17 @@ For each term and configuration, report:
 
 Terms:
 
-\[
+$$
 Z_{0,h},\;Z_{0,d^\star},\;Z_{0,w^\star},\;Z_{0,c^\star},\;
 Z_{\mathrm{NL}},\;\mathrm{ZTD},\;\mathrm{IWV},\;T_m,
 \;\langle g^{-1}\rangle_p.
-\]
+$$
 
 At common epochs, also report
 
-\[
+$$
 \Delta Z_k=Z_k^{\mathrm{RS+ERA5}}-Z_k^{\mathrm{ERA5}}.
-\]
+$$
 
 These are operator-sensitivity differences, not independent validation residuals, because
 ERA5 completion and condensate are shared.
@@ -84,19 +84,19 @@ Compute the following on each identical completed profile:
 
 Use Rüeger's `best average` coefficient set for RU02, matching the existing implementation.
 
-Use the explicit common convention \(e=e(T,\mathrm{RH},p)\) from the selected humidity
-conversion and \(p_d=p-e\). Set condensate to zero for the gas-formulation comparison. If full
+Use the explicit common convention $$\(e=e(T,\mathrm{RH},p)\)$$ from the selected humidity
+conversion and $$\(p_d=p-e\)$$. Set condensate to zero for the gas-formulation comparison. If full
 all-water delays are also shown, add the same AP condensate contribution to every formulation
 and label it as a common augmentation.
 
-For each classical model \(m\), report
+For each classical model $$\(m\)$$, report
 
-\[
+$$
 \delta Z_{\mathrm{AP}-m}=Z_g^{\mathrm{AP}}-Z_g^m,
 \qquad
 \delta Z_{0,\mathrm{AP}-m}=
 \delta Z_{\mathrm{AP}-m}-Z_{\mathrm{NL},g}^{\mathrm{AP}}.
-\]
+$$
 
 The second quantity separates the linear-formulation difference from the AP nonlinear term.
 For each difference, provide count, mean, standard deviation, median, q05, and q95 by physical
@@ -132,23 +132,23 @@ An observation is eligible for the strict experiment only if it is a reference p
 independent of `press_gnss`, with usable time and height metadata. Transfer it to the target
 height using the same humid-air density and gravity convention as the AP operator. Archive
 
-\[
+$$
 p_{\mathrm{gc}},\quad p_{\mathrm{gc}\rightarrow0},\quad
 p_{0,\mathrm{prof}},\quad
 \Delta p_{\mathrm{gc}}=p_{\mathrm{gc}\rightarrow0}-p_{0,\mathrm{prof}},
-\]
+$$
 
 and
 
-\[
+$$
 \Delta Z_{p_0}=10^{-6}q_{1r}\langle g^{-1}\rangle_p\Delta p_{\mathrm{gc}},
 \qquad
 \mathrm{ZTD}_{\mathrm{AP}}^{\mathrm{strict}}
 =\mathrm{ZTD}_{\mathrm{AP}}^{\mathrm{prof}}+\Delta Z_{p_0}.
-\]
+$$
 
 Report availability, mean, standard deviation, median, q05, and q95 of
-\(\Delta p_{\mathrm{gc}}\) and \(\Delta Z_{p_0}\), together with their propagated uncertainty.
+$$\(\Delta p_{\mathrm{gc}}\)$$ and $$\(\Delta Z_{p_0}\)$$, together with their propagated uncertainty.
 If only Lindenberg has adequate 2021 coverage, present it as a clearly identified case study.
 This tests the effect and feasibility of strict decoupling; without an independent delay
 reference it does not prove that the corrected ZTD is more accurate.
@@ -156,7 +156,7 @@ reference it does not prove that the corrected ZTD is more accurate.
 ### 6.5 Discussion questions
 
 1. Does the AP partition close numerically at every site and epoch?
-2. How does the hierarchy of AP terms change with climate, IWV, and \(T_m\)?
+2. How does the hierarchy of AP terms change with climate, IWV, and $$\(T_m\)$$?
 3. Which terms dominate RS41+ERA5 versus ERA5-only differences?
 4. How do the sign, magnitude, variability, and climate dependence of AP--SW53, AP--BE94,
    AP--TH74, and AP--RU02 differ?
@@ -164,7 +164,7 @@ reference it does not prove that the corrected ZTD is more accurate.
    is the impact of the TH74 compressibility convention?
 6. For eligible files, what are the magnitude, variability, and uncertainty of the strict
    ground-check pressure correction?
-7. How intermittent are condensate effects, and how does \(Z_{\mathrm{NL}}\) scale with
+7. How intermittent are condensate effects, and how does $$\(Z_{\mathrm{NL}}\)$$ scale with
    refractivity and humidity?
 8. Are outliers linked to source fractions, gaps, upper-tail use, condensate, surface-pressure
    differences, or ground-check metadata?
@@ -175,7 +175,7 @@ The preferred input has one row per target association and sounding epoch, conta
 
 - timestamp, physical site code, sounding stream, target ID, and target height;
 - operator configuration (`RS+ERA5` or `ERA5-only`);
-- all AP partition terms, AP ZTD, IWV, and \(T_m\);
+- all AP partition terms, AP ZTD, IWV, and $$\(T_m\)$$;
 - surface pressure and source, inverse weighted mean gravity;
 - lower/sonde/gap/top source fractions;
 - condensate occurrence and liquid/ice columns;
