@@ -49,11 +49,9 @@ For each term and configuration, report:
 Terms:
 
 ```latex
-\[
 Z_{0,h},\;Z_{0,d^\star},\;Z_{0,w^\star},\;Z_{0,c^\star},\;
 Z_{\mathrm{NL}},\;\mathrm{ZTD},\;\mathrm{IWV},\;T_m,
 \;\langle g^{-1}\rangle_p.
-\]
 ```
 
 At common epochs, also report
