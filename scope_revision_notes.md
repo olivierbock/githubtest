@@ -55,9 +55,9 @@ $$
 
 At common epochs, also report
 
-\[
+$$
 \Delta Z_k=Z_k^{\mathrm{RS+ERA5}}-Z_k^{\mathrm{ERA5}}.
-\]
+$$
 
 These are operator-sensitivity differences, not validation residuals, because ERA5 completion and condensate are shared.
 
